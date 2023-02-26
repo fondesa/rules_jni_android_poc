@@ -1,0 +1,10 @@
+# OSX/macOS files
+.DS_Store
+
+# Bazel dirs
+.aswb
+.ijwb
+bazel-bin
+bazel-rules_jni_android_poc
+bazel-out
+bazel-testlogs
