@@ -2,7 +2,11 @@ build --enable_platform_specific_config
 build --announce_rc
 
 build:android --incompatible_enable_android_toolchain_resolution
+build:android_arm --config=android
 build:android_arm --android_platforms=//:android_arm
+build:android_arm64 --config=android
 build:android_arm64 --android_platforms=//:android_arm64
+build:android_x86 --config=android
 build:android_x86 --android_platforms=//:android_x86
+build:android_x86_64 --config=android
 build:android_x86_64 --android_platforms=//:android_x86_64
