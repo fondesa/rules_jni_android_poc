@@ -8,7 +8,9 @@
         android:targetSdkVersion="33" />
 
     <application android:label="Rules JNI POC">
-        <activity android:name="poc.AndroidApp">
+        <activity
+            android:name="poc.AndroidApp"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
